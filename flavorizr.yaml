@@ -1,0 +1,25 @@
+flavors:
+  # devフレーバー
+  dev:
+    app:
+      name: "MyApp Debug"
+    android:
+      applicationId: "com.example.sample.dev"
+    ios:
+      bundleId: "com.example.sample.dev"
+  # stgフレーバー
+  stg:
+    app:
+      name: "MyApp Staging"
+    android:
+      applicationId: "com.example.sample.stg"
+    ios:
+      bundleId: "com.example.sample.stg"
+  # prodフレーバー
+  prod:
+    app:
+      name: "MyApp Release"
+    android:
+      applicationId: "com.example.sample"
+    ios:
+      bundleId: "com.example.sample"
