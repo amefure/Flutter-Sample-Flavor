@@ -6,7 +6,7 @@ import 'flavors.dart';
 
 void main() {
   F.appFlavor = Flavor.values.firstWhere(
-    (element) => element.name == appFlavor,
+        (element) => element.name == appFlavor,
   );
 
   runApp(const App());
